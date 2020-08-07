@@ -1,0 +1,9 @@
+{
+  "eppLoanBookingType": "PENDING_TRANSACTION",
+  "tenor": "6",
+  "eppLoanBooking": [
+  {
+    "transactionAuthorizationCode":"987012"
+  }
+ ]
+}

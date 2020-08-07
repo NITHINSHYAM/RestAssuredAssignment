@@ -1,0 +1,410 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 146608000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initiate the setup required",
+            "match": {
+              "location": "com.api.stepDefs.Assignment3_stepdefs.initiate_the_setup_required()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-04T11:24:24.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Initiate the Password API with valid fields and verify the Expected Result",
+        "description": "",
+        "id": "citibank-sandbox-api-test-cases;initiate-the-password-api-with-valid-fields-and-verify-the-expected-result;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "04-Aug-2020 04:54:28 PM : \u003ca target\u003d_blank href\u003d.//api/c757d740-8842-416b-b6aa-1970ed7e7d07/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3302606800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Initiate the Client_Credentials_API \u0027CC_method\u0027 and get the accessToken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027CC_method\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_credentials(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:31 PM : \u003ca target\u003d_blank href\u003d.//api/0f876513-94a8-41d6-9cfc-ed25783a2e2d/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3526238400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Initiate the EtoEkey_API \u0027EE_method\u0027 and get the Biz_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EE_method",
+                  "offset": 26
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_e2ekey(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:33 PM : \u003ca target\u003d_blank href\u003d.//api/a4946074-4a61-49f6-b477-e5ff1ea4276d/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1689170600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Initiate the ResourceOwner \u0027RO_method\u0027 \u0027SandboxUser1\u0027 \u0027password\u0027 \u0027No\u0027 and get the encrypted password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027RO_method\u0027",
+                  "offset": 27
+                },
+                {
+                  "val": "\u0027SandboxUser1\u0027",
+                  "offset": 39
+                },
+                {
+                  "val": "\u0027password\u0027",
+                  "offset": 54
+                },
+                {
+                  "val": "\u0027No\u0027",
+                  "offset": 65
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_ResourceOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Password_API"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initiate the setup required",
+            "match": {
+              "location": "com.api.stepDefs.Assignment3_stepdefs.initiate_the_setup_required()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-04T11:24:33.450Z",
+        "before": [
+          {
+            "result": {
+              "duration": 967000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Initiate the Password API with valid fields and verify the Expected Result",
+        "description": "",
+        "id": "citibank-sandbox-api-test-cases;initiate-the-password-api-with-valid-fields-and-verify-the-expected-result;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "04-Aug-2020 04:54:34 PM : \u003ca target\u003d_blank href\u003d.//api/55574d1e-6b81-4a8d-850b-dae386ebb7a1/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1252347600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Initiate the Client_Credentials_API \u0027CC_method\u0027 and get the accessToken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027CC_method\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_credentials(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:36 PM : \u003ca target\u003d_blank href\u003d.//api/4895d0b3-67cd-4360-a237-9742da00568e/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1909220300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Initiate the EtoEkey_API \u0027EE_method\u0027 and get the Biz_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EE_method",
+                  "offset": 26
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_e2ekey(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:37 PM : \u003ca target\u003d_blank href\u003d.//api/4883c2e7-1a06-4b42-8b8f-c625faf1428e/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1293436000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Initiate the ResourceOwner \u0027RO_method\u0027 \u0027SandboxUser123\u0027 \u0027password\u0027 \u0027No\u0027 and get the encrypted password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027RO_method\u0027",
+                  "offset": 27
+                },
+                {
+                  "val": "\u0027SandboxUser123\u0027",
+                  "offset": 39
+                },
+                {
+                  "val": "\u0027password\u0027",
+                  "offset": 56
+                },
+                {
+                  "val": "\u0027No\u0027",
+                  "offset": 67
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_ResourceOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Password_API"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initiate the setup required",
+            "match": {
+              "location": "com.api.stepDefs.Assignment3_stepdefs.initiate_the_setup_required()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-04T11:24:37.921Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Initiate the Password API with valid fields and verify the Expected Result",
+        "description": "",
+        "id": "citibank-sandbox-api-test-cases;initiate-the-password-api-with-valid-fields-and-verify-the-expected-result;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "04-Aug-2020 04:54:38 PM : \u003ca target\u003d_blank href\u003d.//api/ad15fb74-161a-425a-a879-5cd6a90be4cd/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 952150600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Initiate the Client_Credentials_API \u0027CC_method\u0027 and get the accessToken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027CC_method\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_credentials(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:40 PM : \u003ca target\u003d_blank href\u003d.//api/b5cd76df-3d07-4904-be2a-a6fffd534a60/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 1592147300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Initiate the EtoEkey_API \u0027EE_method\u0027 and get the Biz_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EE_method",
+                  "offset": 26
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_e2ekey(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "04-Aug-2020 04:54:41 PM : \u003ca target\u003d_blank href\u003d.//api/e40deaed-d748-4d43-b0ee-68cfa7def7ae/Output.txt\u003eAPI Call\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 954477000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Initiate the ResourceOwner \u0027RO_method\u0027 \u0027SandboxUser1\u0027 \u0027password\u0027 \u0027Yes\u0027 and get the encrypted password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027RO_method\u0027",
+                  "offset": 27
+                },
+                {
+                  "val": "\u0027SandboxUser1\u0027",
+                  "offset": 39
+                },
+                {
+                  "val": "\u0027password\u0027",
+                  "offset": 54
+                },
+                {
+                  "val": "\u0027Yes\u0027",
+                  "offset": 65
+                }
+              ],
+              "location": "com.api.stepDefs.Assignment3_stepdefs.API_ResourceOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Password_API"
+          }
+        ]
+      }
+    ],
+    "name": "CITIBANK SANDBOX API Test Cases",
+    "description": "",
+    "id": "citibank-sandbox-api-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/citibank/Assignment3.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,33 @@
+Request : GET
+URI : https://sandbox.apihub.citi.com/gcb/api/v1/accounts/75334a554163504f696b485862753135706a3571764332357441476832723073705a647469497372776f544d/transactions?transactionStatus=POSTED
+Headers : 
+Authorization=Bearer AAIkYzlhYTIwNzYtMTU2OS00ZmU2LWE5MDItODkwMDQxZTNhYjBh_nRx0ole_oDm06rTa7oT0PdmohDMRMx_z7ATEi7JRfIvjEDD6lB2Iln-dL-V4mH5Ec3pmg16RBxT6GK1qa7Nw2nsUfi5D4C2sReCZuoT3iqV95-yjMCw6kowIIcwkRfKggvXGux5dTFpuCUqZNcGKGfqBsmdpiFk4xukT7AACVAW5q74KMGHnO3n9ZOsM38akREJr4Ytj4YMG3gQaLM2OQ
+Accept=application/json
+uuid=9361bdcc-3543-41a1-ae8a-dc4e47fc575b
+Client_id=c9aa2076-1569-4fe6-a902-890041e3ab0a
+Params : 
+Response : 
+HTTP/1.1 200 OK
+Headers : 
+X-Backside-Transport=OK OK,OK OK,OK OK
+uuid=9361bdcc-3543-41a1-ae8a-dc4e47fc575b
+citiuuid=8e297d72-d9e0-48b6-ab8e-33644a7104b5
+apitimestamp_4=2020-08-04T05:17:45.969+08:00
+apitimestamp_1=2020-08-04T05:17:45.939+08:00
+apitimestamp_2=2020-08-04T05:17:45.968+08:00
+Content-Type=application/json
+X-Global-Transaction-ID=6e68aa425f287ef96c386fcf
+Access-Control-Expose-Headers=Accept, Accept-Language, Authorization, businessCode, client_id, content-type, countryCode, ChannelId,partnerIdentifier,PartnerCustomerID,CitiCustomerRefId, uuid, x-ibm-client-id,eventid,bizToken,citiuuid,mfaCode,channelindicator,org,relationshipnumber,terminalid,userid,messageid,versionnbr,nextStartIndex,clientDetails,x-fapi-customer-ip-address,x-fapi-customer-last-logged-time,x-fapi-financial-id,accept-compression,x-fapi-interaction-id,customerReferenceId,x-customer-user-agent,x-jws-signature,x-idempotency-key
+Access-Control-Allow-Origin=
+Access-Control-Allow-Methods=GET,POST,PUT,DELETE
+Access-Control-Allow-Headers=Accept, Accept-Language, Authorization, businessCode, client_id, content-type, countryCode, ChannelId,partnerIdentifier,PartnerCustomerID,CitiCustomerRefId, uuid, x-ibm-client-id,eventid,bizToken,citiuuid,mfaCode,channelindicator,org,relationshipnumber,terminalid,userid,messageid,versionnbr,nextStartIndex,clientDetails,x-fapi-customer-ip-address,x-fapi-customer-last-logged-time,x-fapi-financial-id,accept-compression,x-fapi-interaction-id,customerReferenceId,x-customer-user-agent,x-jws-signature,x-idempotency-key
+mfaCode=V9AfqITJxXXPVIyHlT%2FmDzEHqNAOLZq6tJSxj83GAL3lsli0Tvg2CzKMzW0hZ32NWDvz%2B5fpEGTOjn%2FeoZJievfYNSnsh%2B4qmzWBbGMgAIUpP8vTDOaNibxtMCNGtHT%2Fo8DWaEWW5KG7jtpyToxmNYr9vEW9P8%2FjoKlLcDZLW0ela7IniRBzLnTIUMnK27217SEAR5nVke5YUZdlE36rO7PKbQkrb1MIoOAAj3Q0hP5EQpfsENoda6lbiyXnvIcdBI9QpOuGMCC1dU8Nk%2BRaoak8FhEVVrjLlcB0yz%2BNzkFYA4jyPn71Jxrugyy5zI9H7A8FJTEG7O9rnoiMYbZPA7jxKm1yk0yxmzZUSp1%2FFmhWW6RmEsUmG6rPo7tj04BHIk6clWS5LX50J%2BoB7CLFNPkc%2FMOP5VaEz8HyKfJrykg%3D
+X-Akamai-CITISITE=GTDC
+Vary=Accept-Encoding
+Content-Encoding=gzip
+Date=Mon, 03 Aug 2020 21:17:46 GMT
+Content-Length=481
+Connection=keep-alive
+Set-Cookie=CITI_SITE=gtdc; expires=Mon, 03-Aug-2020 21:37:46 GMT; path=/; domain=sandbox.apihub.citi.com; secure; HttpOnly
+Body : 
+{"transactions":[{"displayAccountNumber":"XXXXXX5753","transactionDate":"2020-12-18","transactionDescription":"PÃ…?ATNOÃ…Å¡Ã„â€ ","transactionReferenceId":"BKOIT2106110000977","transactionDetailViewFlag":true,"transactionAmount":997,"currencyCode":"BHD","transactionType":"CREDIT","transactionStatus":"BILLED","transactionPostingDate":"2020-12-18","transactionCode":"5834","eligibleForEqualPaymentPlan":"NOT_ELIGIBLE","statementDate":"2020-12-18"},{"displayAccountNumber":"XXXXXX5753","transactionDate":"2020-11-18","transactionDescription":"TRIAD PUNITIVE FEE","transactionReferenceId":"BKOIT2106110000949","transactionDetailViewFlag":true,"transactionAmount":997,"currencyCode":"BHD","transactionType":"CREDIT","transactionStatus":"UNBILLED","transactionPostingDate":"2020-11-18","transactionCode":"5862","eligibleForEqualPaymentPlan":"NOT_ELIGIBLE"},{"displayAccountNumber":"XXXXXX5753","transactionDate":"2020-10-18","transactionDescription":"OAO038 MERCHANT","transactionDetailViewFlag":true,"transactionAmount":65,"currencyCode":"BHD","transactionStatus":"PENDING","transactionCode":"5863","transactionAuthorizationCode":"MATCH"},{"displayAccountNumber":"XXXXXX5753","transactionDate":"2020-09-18","transactionDescription":"OPÃ…?ATA ZA KARTÃ„Ëœ","transactionReferenceId":"BKOIT2106110007809","transactionDetailViewFlag":true,"transactionAmount":997,"currencyCode":"BHD","transactionType":"CREDIT","transactionStatus":"BILLED","transactionPostingDate":"2021-06-18","transactionCode":"5890","eligibleForEqualPaymentPlan":"NOT_ELIGIBLE","statementDate":"2020-01-06"}]}

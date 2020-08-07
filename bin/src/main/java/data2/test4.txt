@@ -1,0 +1,9 @@
+{
+  "eppLoanBookingType":"invalid",
+  "tenor":"6",
+  "eppLoanBooking":[
+  {
+  "transactionAuthorizationCode":"987012"
+  }
+ ]
+}
